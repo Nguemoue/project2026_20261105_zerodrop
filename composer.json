@@ -1,0 +1,12 @@
+{
+    "name": "nguemoue/zerodrop",
+    "description": "Le zéro que PHP traite comme vide. array_filter jette \"0\", ?: le remplace, empty(\"0\") vaut true. CLI PHP, zéro dépendance.",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1"
+    },
+    "bin": [
+        "zerodrop.php"
+    ]
+}
